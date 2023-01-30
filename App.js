@@ -4,7 +4,7 @@ import "@fontsource/poppins";
 
 export default function App() {
   return (
-      <ImageBackground source={'https://c0.wallpaperflare.com/preview/303/224/922/interior-tech-technology-coffee.jpg'}  style={styles.image}>
+      <ImageBackground source={'https://thumbs.dreamstime.com/b/interior-design-cafe-city-very-aesthetic-beautiful-to-look-interior-design-cafe-city-214085471.jpg'}  style={styles.image}>
     <View style={styles.MainContainer}>
       <View style={styles.container}>
         <Image style={styles.img} resizeMode="cover" source={require("./assets/img.jpg")}/>
