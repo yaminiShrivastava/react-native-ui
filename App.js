@@ -4,7 +4,7 @@ import "@fontsource/poppins";
 
 export default function App() {
   return (
-      <ImageBackground source={'https://mobimg.b-cdn.net/v3/fetch/44/44b208e04a532e7077071d32baebf666.jpeg'}  style={styles.image}>
+      <ImageBackground source={'https://c0.wallpaperflare.com/preview/303/224/922/interior-tech-technology-coffee.jpg'}  style={styles.image}>
     <View style={styles.MainContainer}>
       <View style={styles.container}>
         <Image style={styles.img} resizeMode="cover" source={require("./assets/img.jpg")}/>
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     borderRadius:'7px',
   },
   forFont:{
-    fontSize:'11px',
+    fontSize:'3.5vw',
     color:'rgba(255 ,255 ,255 , 0.7)',
     fontFamily: "Poppins"
   }
